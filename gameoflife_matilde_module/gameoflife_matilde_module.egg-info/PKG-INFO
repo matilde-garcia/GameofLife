@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: gameoflife_matilde_module
+Version: 0.0.1
+Summary: test module for the SciComp class
+Home-page: https:///github.com/matilde-garcia
+Author: Matilde Garcia
+Author-email: m.garcia5@campus.unimib.it
+License: MIT
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary

@@ -1,0 +1,18 @@
+[project]
+name = "gameoflife_matilde_module"
+version = "0.0.1"
+authors = [
+  { name="Matilde Garcia", email="m.garcia5@campus.unimib.it" },
+]
+description = "Package to play Conway0s game of life"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/matilde-garcia/scientificcomputing_bicocca_2025"
