@@ -1,0 +1,33 @@
+name: Run Tests
+run-name: ${{ github.actor }} is testing her code to see if your commit is ok.
+on: 
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  check-test-passed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'  
+      
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+        
+      - name: Install dependencies again   
+        run: pip install pytest numpy matplotlib IPython ffmpeg
+
+      - name: Install my package
+        run: pip install -e .
+
+      - name: Run Pytest
+        working-directory: tests
+        run: pytest -v
+        
+      - run: echo "🍏 This job's status is ${{ job.status }}."
