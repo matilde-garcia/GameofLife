@@ -1,13 +1,28 @@
 Metadata-Version: 2.4
 Name: gameoflife_matilde_module
 Version: 0.0.1
-Summary: test module for the SciComp class
+Summary: Package to play Conway0s game of life
 Home-page: https:///github.com/matilde-garcia
 Author: Matilde Garcia
-Author-email: m.garcia5@campus.unimib.it
-License: MIT
+Author-email: Matilde Garcia <m.garcia5@campus.unimib.it>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/matilde-garcia/GameofLife
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
 Dynamic: author
-Dynamic: author-email
 Dynamic: home-page
-Dynamic: license
-Dynamic: summary
+Dynamic: license-file
+
+# Matilde's module to play Conway's game of life
+
+Python implementation fo Conway's game of life, as well as the functions to play it with and without the option of dynamically plotting the system.
+
+The player simply has to, in his/her code, generate a grid of 0s and 1s and play the game. I recommend the plotting options for smaller grids (no more than 500x500 cells).
+
+To install it, just type on your terminal:
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple gameoflife-matilde-module
+
+The user must have numpy, matplotlib and IPython previously installed.
