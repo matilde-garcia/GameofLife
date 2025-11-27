@@ -28,7 +28,7 @@ my_grid = np.random.randint(low = 0, high = 2, size = (20,20))
 #test that upcoming executions of the code will lead to the same result for a starting grid of 20x20, after 10 iterations
 def test_lifegame3():
     my_ani = gameoflife_matilde_module.play_life_game_wplots(my_grid, 10)
-    my_ani.save( "tests/life_game.mp4", writer="ffmpeg", fps=20)
+    my_ani.save( "test_life_game.mp4", writer="ffmpeg", fps=20)
     #regarding animations the only really possible test is to look at this and the one saved on benchmark side by side 
     benchmark_final_grid = np.loadtxt("benchmark/final_grid.txt", dtype=int, delimiter=' ')
     this_final_grid = gameoflife_matilde_module.play_life_game(my_grid, 10)[-1]
