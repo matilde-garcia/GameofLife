@@ -24,7 +24,7 @@ jobs:
         run: pip install pytest
 
       - name: Run Pytest
-        working-directory: ./test
+        working-directory: test
         run: pytest -v
         
       - run: echo "🍏 This job's status is ${{ job.status }}."
