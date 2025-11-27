@@ -7,4 +7,6 @@ The player simply has to, in his/her code, generate a grid of 0s and 1s and play
 To install it, just type on your terminal:
 pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple gameoflife-matilde-module
 
+Be mindful that this previous installation command works for using only, not changing it.
+
 The user must have numpy, matplotlib and IPython previously installed.
