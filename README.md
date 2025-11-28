@@ -15,5 +15,5 @@ The user must have numpy, matplotlib and IPython previously installed (the setup
 For a dynamical installation (so that the package on the local machine is updated upon changes to the code), simply clone and pull the contents of the repository and pip install -e inside the folder "GameofLife".
 
 ## Contributing to the code
-To contribute to the code, simply do a pull request upon which the merge with the main branch will be approved/denied according to the status of the workflow "runtests", which preforms both unit and regression tests on the code after changes are executed in a secondary branch (other than the main).
+To contribute to the code, colaborators can create a secondary branch, change the code and do a pull request upon which the merge with the main branch will be approved/denied according to the status of the workflow "runtests", which preforms both unit and regression tests on the code after changes are executed. Only the owner can work on the main branch
 
