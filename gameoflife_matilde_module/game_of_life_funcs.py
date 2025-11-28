@@ -1,4 +1,4 @@
-#import numpy as np
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import IPython.display as display
@@ -97,7 +97,3 @@ def play_life_game_wplots(grid, n_iterations):
 
 #To see the dynamical plot in your code, simply save the return of this function, as such:
 #ani.save( "/home/matildeg02/GameofLife/tests/life_game.mp4", writer="ffmpeg", fps=20)
-
-
-
-##JUST A TEST
