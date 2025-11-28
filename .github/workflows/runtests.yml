@@ -1,9 +1,6 @@
 name: Run Tests
 run-name: ${{ github.actor }} is testing her code to see if your commit is ok.
-on: 
-  push:
-    branches-ignore:
-      - main
+on: [push]
 
 jobs:
   check-test-passed:
