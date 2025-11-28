@@ -10,6 +10,9 @@ The player simply has to, in his/her code, generate a grid of 0s and 1s and play
 To install it, just type on your terminal:
 pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple gameoflife-matilde-module
 
-This repository already includes all the folders that are created when packaging it. 
+For a dynamical installation (so that the package on the local machine is updated upon changes to the code), simply clone and pull the contents of the repository and pip install -e inside the folder "GameofLife".
+
+## Contributing to the code
+To contribute to the code, simply do a pull request upon which the merge with the main branch will be approved/denied according to the status of the workflow "runtests", which preforms both unit and regression tests on the code after changes are executed in a secondary branch (other than the main).
 
 The user must have numpy, matplotlib and IPython previously installed.
