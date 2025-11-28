@@ -1,6 +1,6 @@
 # Matilde's module to play Conway's game of life
 
-Python implementation fo Conway's game of life, as well as the functions to play it with and without the option of dynamically plotting the system.
+Python implementation of Conway's game of life, as well as the functions to play it with and without the option of dynamically plotting the system.
 
 ## Using the code
 
