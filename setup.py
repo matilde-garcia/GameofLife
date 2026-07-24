@@ -6,5 +6,5 @@ setup(name='gameoflife_matilde_module',
       author='Matilde Garcia',
       author_email='m.garcia5@campus.unimib.it',
       license='MIT',
-      version='0.0.2',
+      version='0.0.3',
       packages=find_packages())

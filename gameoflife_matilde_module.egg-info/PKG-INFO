@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: gameoflife_matilde_module
-Version: 0.0.2
-Summary: Package to play Conway0s game of life
+Version: 0.0.4
+Summary: Package to play Conway's game of life
 Home-page: https://github.com/matilde-garcia/GameofLife
 Author: Matilde Garcia
 Author-email: Matilde Garcia <m.garcia5@campus.unimib.it>
@@ -12,6 +12,9 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: numpy>=1.21
+Requires-Dist: matplotlib>=3.5
+Requires-Dist: ipython
 Dynamic: author
 Dynamic: home-page
 Dynamic: license-file
@@ -28,8 +31,7 @@ The player simply has to, in his/her code, generate a grid of 0s and 1s and play
 To install it, just type on your terminal:
 pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple gameoflife-matilde-module
 
-The user must have numpy, matplotlib and IPython previously installed (the setup doesn't have a build dependencies option so the package "doesn't know" what the dependencies are to use the code).
-
+### Alternatively:
 For a dynamical installation (so that the package on the local machine is updated upon changes to the code), simply clone and pull the contents of the repository and pip install -e inside the folder "GameofLife".
 
 ## Contributing to the code

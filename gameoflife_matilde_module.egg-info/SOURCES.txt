@@ -7,4 +7,5 @@ gameoflife_matilde_module/game_of_life_funcs.py
 gameoflife_matilde_module.egg-info/PKG-INFO
 gameoflife_matilde_module.egg-info/SOURCES.txt
 gameoflife_matilde_module.egg-info/dependency_links.txt
+gameoflife_matilde_module.egg-info/requires.txt
 gameoflife_matilde_module.egg-info/top_level.txt
