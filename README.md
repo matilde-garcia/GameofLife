@@ -12,6 +12,7 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 
 The user must have numpy, matplotlib and IPython previously installed (the setup doesn't have a build dependencies option so the package "doesn't know" what the dependencies are to use the code).
 
+### Alternatively:
 For a dynamical installation (so that the package on the local machine is updated upon changes to the code), simply clone and pull the contents of the repository and pip install -e inside the folder "GameofLife".
 
 ## Contributing to the code

@@ -1,10 +1,11 @@
 [project]
 name = "gameoflife_matilde_module"
-version = "0.0.2"
+version = "0.0.4"
 authors = [
   { name="Matilde Garcia", email="m.garcia5@campus.unimib.it" },
 ]
-description = "Package to play Conway0s game of life"
+dependencies = ["numpy>=1.21", "matplotlib>=3.5", "ipython"]
+description = "Package to play Conway's game of life"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
